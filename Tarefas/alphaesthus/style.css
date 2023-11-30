@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    width: 100%;
+    background-color: #FF9800;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+    height: 4vh;
+   
+    background-color: aquamarine;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    height: 4vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+a:hover {
+    padding: 1%;
+    background: white;
+    color: #FF9800;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    
+}
+
+.esquerda {
+    display: flex;
+    width: 50%;
+    height: 92vh;
+    background: aqua;
+}
+
+.direita {
+    display: flex;
+    width: 50%;
+    height: 92vh;
+    background: purple;
+}
+.lupa {
+    background-color: black;
+}

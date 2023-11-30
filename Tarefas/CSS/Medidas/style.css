@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 50px;
+}
+
+section#Primeira {
+    background-color: blueviolet;
+}
+
+.primeiro_bloco {
+    font-size: 0.5em;
+    background-color: violet;
+}
+
+.segundo_bloco {
+    font-size: 0.75em;
+    background-color: rgb(58, 22, 116);
+}
+
+.terceiro_bloco{
+    font-size: 1em;
+    background-color: rgb(11, 163, 163);
+}
+
+.quarto_bloco {
+  font-size: 1.25em;
+  background-color: rgb(180, 15, 180);
+}
+
+.quinto_bloco {
+    font-size: 1.50em;
+    background-color: rgb(212, 117, 8);
+}
+
+.sexto_bloco {
+    font-size: 1.75em;
+    background-color: rgb(187, 12, 12);
+}

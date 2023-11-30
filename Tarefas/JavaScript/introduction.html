@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - 1</title>
+
+    <style>
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Informações</h1>
+    <p class="nome">bla</p>
+    <p class="signo">bla</p>
+    <p class="idade">bla</p>
+    <ul>
+    <h3>Contatos</h3>
+    <li><p class="email">bla</p></li>
+    <li><p class="numero">bla</p></li>
+    </ul>
+
+    <script>
+                /*Função Nativa de Alertas 
+        alert('Beatriz hoje vai ouvir nação zumbi!');
+        alert('NAÇÃO ZUMBI');*/
+
+
+            /* Função Nativa de coletar dados 
+        prompt('Informe seu nome:');
+        prompt('Informe seu e-mail:');
+
+        confirm('Sim ou Não?');
+
+        Declarando uma variável 
+
+      Associando uma função a uma variável */
+
+       var nome, signo, idade, email, numero;
+
+
+       nome = prompt('Digite seu nome: ');
+       idade = prompt('Digite seu idade: ');
+       signo = prompt('Digite seu signo: ');
+       email = prompt('Digite seu email: ');
+       numero = prompt('Digite seu numero: ');
+
+     
+       
+       var boxRosa = document.querySelector('.nome');
+       boxRosa.innerHTML = 'Meu nome é: ' + nome;
+       var boxRosa = document.querySelector('.signo');
+       boxRosa.innerHTML = 'Meu signo é: ' + signo;
+       var boxRosa = document.querySelector('.idade');
+       boxRosa.innerHTML = 'Minha idade é: ' + idade;
+       var boxRosa = document.querySelector('.email');
+       boxRosa.innerHTML = 'Meu email: ' + email;
+       var boxRosa = document.querySelector('.numero');
+       boxRosa.innerHTML = 'Meu número: ' + numero;
+
+
+
+    </script>
+    
+</body>
+</html>

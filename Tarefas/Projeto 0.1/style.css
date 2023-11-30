@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: rgb(51, 70, 89);
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.numero {
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    background-image: url(recife.jpg);
+    background-position:  center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+
+
+div.direita {
+    margin-right: 15rem;
+    display: ;
+    background-color: white;
+    margin-top: 1.4em;
+    padding: 1em;
+    border-radius: 1.2em;
+    text-align: center;
+}
+
+div.esquerda {
+    font-size:2em;
+    padding:  0 5em;
+    color: white;
+    text-shadow: 0 1px 1px #000;
+}
+
+footer {
+    background-image: none;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.botão {
+    background-color: rgb(61, 22, 167);
+    color: rgb(252, 252, 252);
+    padding: 8px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.5 ease-in;
+    border: none;
+
+}
+
+.botão:hover {
+    opacity: 1;
+}

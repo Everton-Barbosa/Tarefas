@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Transporte</h1>
+    </header>
+
+    <article>
+
+        <form action="mailto:everton.barbosa1305@gmail.com" method="post" oninput="resultado.value = parseInt(valor01.value) + parseInt(valor02.value)">
+
+    <fieldset style="border-radius: 15px;">
+        <legend><B>Identificação</B></legend>
+        <br>
+            <label for="cNome">Nome:</label>
+            <input type="text" name="nome" id="cNome" required>
+                <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"  name="email" placeholder="exemplo@exemplo.com">
+                <br><br>
+            <p>Você mora:</p>
+            <input type="radio" name="Lugar" id="city" value="C">
+            <label for="city">Cidade</label> 
+                 <br>
+            <input type="radio" name="Lugar" id="downtown" value="D">
+            <label for="downtown">Interior</label>
+                <br><br>
+    </fieldset>
+        <br>
+    <fieldset  style="border-radius: 15px;">
+        <legend><b>Informações Extras</b></legend>
+            <p>Qual meio de transporte você usa?</p>
+            <input type="checkbox" name="transporte1" id="bike" value="bike">
+            <label for="bike">Bicicleta</label>
+                <br>
+            <input type="checkbox" name="transporte2" id="car" value="car">
+            <label for="car">Carro</label>
+                <br>
+            <input type="checkbox" name="transporte3" id="metro" value="metro">
+            <label for="metro">Metrô</label>
+                <br>
+            <input type="checkbox" name="transporte4" id="bus" value="bus">
+            <label for="bus">Ônibus</label>
+                <br><br>
+
+                <!--Select cria uma lista de opções-->
+                <label for="game">Escolha seu tipo de jogo:</label>
+                    <select name="game" id="game">
+                        <!--Options são as opções da lista-->
+                        <!--Value são os valores de escolha-->
+                        <option value="fps">FPS</option>
+                        <option value="adv">Adventure</option>
+                        <option value="rpg">RPG</option>
+                        <option value="moba">M.O.B.A</option>
+                        <option value="sport">Sport's</option>
+                        <option value="Puzzle">Puzzle</option>
+                    </select>
+                        <br><br>
+                    <!--Aqui inicia o datalist-->
+                    <label for="região">Escolha sua cidade:</label>
+                    <input list="cidade" name="city2" id="região" placeholder="Digite sua cidade">
+                    <datalist id="cidade">
+                        <option value="Recife"></option>
+                        <option value="Olinda"></option>
+                        <option value="Cabo"></option>
+                        <option value="Paulista"></option>
+                        <option value="Moreno"></option>
+                        <option value="Camaragibe"></option>
+                        <option value="Igarassu"></option>
+                        <option value="Ipojuca"></option>
+                    </datalist>
+                </fieldset>
+                <br> 
+                <fieldset  style="border-radius: 15px;">
+                    <legend><b>Avaliação</b></legend>
+                    <br><br>
+                    <label for="valor01">O quanto você curtiu o formulário:</label> <br><br>
+                    0 <input type="range" name="valor01" id="valor01"> 100
+                    <input type="number" name="valor02" id="valor02" value="10">
+                    <output name="resultado" id="resultado" value=""></output>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset  style="border-radius: 15px;">
+                    <legend><b>Opinião</b></legend>
+                    <p>Sugestões, elogios e criticas:</p>
+                    <textarea name="msg" cols="37" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                 <br><br>
+                 <div style="text-align: center;">
+                    <input type="submit" value="Enviar"">
+                </div>
+                </fieldset>
+                </form>
+            
+    </article>
+<br><br>
+<hr>
+    <footer>
+        <small>By Everton Barbosa</small>
+    </footer>
+</body>
+</html>
